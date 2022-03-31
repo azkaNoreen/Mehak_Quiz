@@ -88,7 +88,7 @@ btn.addEventListener("click", () => {
             loadQuiz();
         } else {
             console.log(score)
-            quiz.innerHTML = `<h2>You answer correct ${score} / ${questionPaper.length}</h2>`;
+            quiz.innerHTML = `<h2>You answered correct ${score} / ${questionPaper.length}</h2>`;
         }
 
     }
